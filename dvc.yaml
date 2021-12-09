@@ -1,0 +1,9 @@
+stages:
+  RandRange:
+    cmd: "python -c \"from main import RandRange; RandRange(load=True, name='RandRange').run()\"\
+      \ "
+    params:
+    - RandRange
+    metrics:
+    - nodes/RandRange/metrics_no_cache.json:
+        cache: false

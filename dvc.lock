@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  RandRange:
+    cmd: "python -c \"from main import RandRange; RandRange(load=True, name='RandRange').run()\"\
+      \ "
+    params:
+      params.yaml:
+        RandRange:
+          maximum: 4096
+    outs:
+    - path: nodes/RandRange/metrics_no_cache.json
+      md5: 2eaf3855c087125b03f8dd8aefa495ad
+      size: 52
