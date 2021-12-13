@@ -6,8 +6,8 @@ stages:
     params:
       params.yaml:
         RandRange:
-          maximum: 16
+          maximum: 12
     outs:
     - path: nodes/RandRange/metrics_no_cache.json
-      md5: 327a1ac0ce37b1bd81b3f67afe5ee83f
+      md5: 8546f1d7ed155ff273a1145984a8b54e
       size: 46
